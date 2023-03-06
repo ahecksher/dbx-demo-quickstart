@@ -1,0 +1,15 @@
+{
+    "environments": {
+        "default": {
+            "profile": "gcp_fe_demo",
+            "storage_type": "mlflow",
+            "properties": {
+                "workspace_directory": "/Shared/dbx/dbx_demo_quickstart",
+                "artifact_location": "dbfs:/Shared/dbx/projects/dbx_demo_quickstart"
+            }
+        }
+    },
+    "inplace_jinja_support": false,
+    "failsafe_cluster_reuse_with_assets": false,
+    "context_based_upload_for_execute": false
+}
